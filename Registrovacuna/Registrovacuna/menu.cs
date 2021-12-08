@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace Registrovacuna
 {
-    public partial class menu : Form
+    public partial class frmmenu : Form
     {
-        public menu()
+        public frmmenu()
         {
             InitializeComponent();
         }

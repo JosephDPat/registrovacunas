@@ -34,15 +34,6 @@ namespace Registrovacuna
             txtemaillog.Clear();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
         //Fin diseño del formulario
         private void btnacceder_Click(object sender, EventArgs e)
         {
@@ -56,7 +47,7 @@ namespace Registrovacuna
             {
                 //Si los datos son correctos y estan registrados, se abre el menu principal
                 this.Hide();
-                new menu().Show();
+                new frmmenu().Show();
             }
             else
             {

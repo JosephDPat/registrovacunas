@@ -29,7 +29,6 @@ namespace Registrovacuna
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(altas));
             this.txtnombre = new System.Windows.Forms.TextBox();
             this.txtappaterno = new System.Windows.Forms.TextBox();
             this.txtapmaterno = new System.Windows.Forms.TextBox();
@@ -37,22 +36,17 @@ namespace Registrovacuna
             this.dtpfecha = new System.Windows.Forms.DateTimePicker();
             this.txtcorreo = new System.Windows.Forms.TextBox();
             this.txttelefono = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.btnregistrar = new System.Windows.Forms.Button();
             this.btncancelar = new System.Windows.Forms.Button();
             this.lblcurp = new System.Windows.Forms.Label();
             this.cmbsexo = new System.Windows.Forms.ComboBox();
             this.lblsexo = new System.Windows.Forms.Label();
             this.txtlugarnac = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // txtnombre
             // 
-            this.txtnombre.Location = new System.Drawing.Point(68, 119);
+            this.txtnombre.Location = new System.Drawing.Point(67, 24);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(351, 31);
             this.txtnombre.TabIndex = 0;
@@ -61,7 +55,7 @@ namespace Registrovacuna
             // 
             // txtappaterno
             // 
-            this.txtappaterno.Location = new System.Drawing.Point(68, 157);
+            this.txtappaterno.Location = new System.Drawing.Point(67, 62);
             this.txtappaterno.Name = "txtappaterno";
             this.txtappaterno.Size = new System.Drawing.Size(351, 31);
             this.txtappaterno.TabIndex = 1;
@@ -70,7 +64,7 @@ namespace Registrovacuna
             // 
             // txtapmaterno
             // 
-            this.txtapmaterno.Location = new System.Drawing.Point(68, 195);
+            this.txtapmaterno.Location = new System.Drawing.Point(67, 100);
             this.txtapmaterno.Name = "txtapmaterno";
             this.txtapmaterno.Size = new System.Drawing.Size(351, 31);
             this.txtapmaterno.TabIndex = 2;
@@ -80,7 +74,7 @@ namespace Registrovacuna
             // txtfechanac
             // 
             this.txtfechanac.Enabled = false;
-            this.txtfechanac.Location = new System.Drawing.Point(68, 233);
+            this.txtfechanac.Location = new System.Drawing.Point(67, 138);
             this.txtfechanac.Name = "txtfechanac";
             this.txtfechanac.Size = new System.Drawing.Size(198, 31);
             this.txtfechanac.TabIndex = 3;
@@ -89,7 +83,7 @@ namespace Registrovacuna
             // dtpfecha
             // 
             this.dtpfecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpfecha.Location = new System.Drawing.Point(268, 233);
+            this.dtpfecha.Location = new System.Drawing.Point(267, 138);
             this.dtpfecha.Name = "dtpfecha";
             this.dtpfecha.Size = new System.Drawing.Size(151, 31);
             this.dtpfecha.TabIndex = 4;
@@ -97,7 +91,7 @@ namespace Registrovacuna
             // 
             // txtcorreo
             // 
-            this.txtcorreo.Location = new System.Drawing.Point(68, 419);
+            this.txtcorreo.Location = new System.Drawing.Point(67, 324);
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(351, 31);
             this.txtcorreo.TabIndex = 7;
@@ -106,51 +100,17 @@ namespace Registrovacuna
             // 
             // txttelefono
             // 
-            this.txttelefono.Location = new System.Drawing.Point(68, 456);
+            this.txttelefono.Location = new System.Drawing.Point(67, 361);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(351, 31);
             this.txttelefono.TabIndex = 8;
             this.txttelefono.Text = "Numero de telefono";
             this.txttelefono.Click += new System.EventHandler(this.txttelefono_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(116, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 54);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Crear cuenta";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(453, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(28, 29);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(420, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(34, 28);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
             // btnregistrar
             // 
             this.btnregistrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btnregistrar.Location = new System.Drawing.Point(68, 544);
+            this.btnregistrar.Location = new System.Drawing.Point(67, 449);
             this.btnregistrar.Name = "btnregistrar";
             this.btnregistrar.Size = new System.Drawing.Size(351, 40);
             this.btnregistrar.TabIndex = 9;
@@ -161,7 +121,7 @@ namespace Registrovacuna
             // btncancelar
             // 
             this.btncancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btncancelar.Location = new System.Drawing.Point(68, 590);
+            this.btncancelar.Location = new System.Drawing.Point(67, 495);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(351, 40);
             this.btncancelar.TabIndex = 10;
@@ -184,7 +144,7 @@ namespace Registrovacuna
             this.cmbsexo.Items.AddRange(new object[] {
             "Hombre",
             "Mujer"});
-            this.cmbsexo.Location = new System.Drawing.Point(237, 307);
+            this.cmbsexo.Location = new System.Drawing.Point(236, 212);
             this.cmbsexo.Name = "cmbsexo";
             this.cmbsexo.Size = new System.Drawing.Size(182, 33);
             this.cmbsexo.TabIndex = 6;
@@ -192,7 +152,7 @@ namespace Registrovacuna
             // lblsexo
             // 
             this.lblsexo.AutoSize = true;
-            this.lblsexo.Location = new System.Drawing.Point(68, 315);
+            this.lblsexo.Location = new System.Drawing.Point(67, 220);
             this.lblsexo.Name = "lblsexo";
             this.lblsexo.Size = new System.Drawing.Size(50, 25);
             this.lblsexo.TabIndex = 14;
@@ -200,7 +160,7 @@ namespace Registrovacuna
             // 
             // txtlugarnac
             // 
-            this.txtlugarnac.Location = new System.Drawing.Point(68, 270);
+            this.txtlugarnac.Location = new System.Drawing.Point(67, 175);
             this.txtlugarnac.Name = "txtlugarnac";
             this.txtlugarnac.Size = new System.Drawing.Size(351, 31);
             this.txtlugarnac.TabIndex = 5;
@@ -211,17 +171,14 @@ namespace Registrovacuna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(480, 650);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(480, 545);
             this.Controls.Add(this.txtlugarnac);
             this.Controls.Add(this.lblsexo);
             this.Controls.Add(this.cmbsexo);
             this.Controls.Add(this.lblcurp);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.btnregistrar);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.txttelefono);
             this.Controls.Add(this.txtcorreo);
             this.Controls.Add(this.dtpfecha);
@@ -229,13 +186,11 @@ namespace Registrovacuna
             this.Controls.Add(this.txtapmaterno);
             this.Controls.Add(this.txtappaterno);
             this.Controls.Add(this.txtnombre);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "altas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Crear cuenta";
             this.Load += new System.EventHandler(this.altas_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -250,9 +205,6 @@ namespace Registrovacuna
         private System.Windows.Forms.DateTimePicker dtpfecha;
         private System.Windows.Forms.TextBox txtcorreo;
         private System.Windows.Forms.TextBox txttelefono;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button btnregistrar;
         private System.Windows.Forms.Button btncancelar;
         private System.Windows.Forms.Label lblcurp;
